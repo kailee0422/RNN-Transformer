@@ -1,16 +1,11 @@
 # HW1 Experiment Report
 
-**Name:** 李崇楷  
-**Student ID:** 313834006  
-**Code Repository:** [GitHub Link (Coming Soon)](https://github.com/kailee0422/Deep-Learning.git)
-
 ## 📌 Table of Contents
 - [Introduction](#introduction)
 - [Method](#method)
   - [Word Embedding Techniques](#word-embedding-techniques)
-  - [Model Architectures](#model-architectures)
+  - [Model](#model)
 - [Results](#results)
-- [Figures](#figures)
 - [Conclusion](#conclusion)
 
 ---
