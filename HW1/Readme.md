@@ -29,15 +29,16 @@ This experiment aims to classify AI-generated versus human-written texts using L
 ---
 
 ## Results
+
 - **Table 1:** Test Accuracy for Different Tokenizer and Word Embedding Combinations. 
 ![Test Accuracy Table](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Table1.png)
-
+<br><br>
 - **Figure 1:** Training and testing loss (left), test accuracy (right) for Basic embedding with LSTM.  
 ![Figure 1](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Figure1.png)
-
+<br><br>
 - **Figure 2:** Training and testing loss (left), test accuracy (right) for Basic embedding with CNN-LSTM.  
 ![Figure 2](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Figure2.png)
-
+<br><br>
 - **Figure 3:** Training and testing loss (left), test accuracy (right) for Basic embedding with BiLSTM.  
 ![Figure 3](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Figure3.png)
 
