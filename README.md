@@ -1,4 +1,4 @@
 # RNN-Transformer
 NYCU RNN&amp;Transformer Class HW
 # List of HW
-- [HW1]()
+- [HW1](https://github.com/kailee0422/RNN-Transformer/tree/main/HW1)
