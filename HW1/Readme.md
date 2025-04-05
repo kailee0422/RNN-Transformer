@@ -3,8 +3,6 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Method](#method)
-  - [Word Embedding Techniques](#word-embedding-techniques)
-  - [Model](#model)
 - [Results](#results)
 - [Conclusion](#conclusion)
 
@@ -31,6 +29,7 @@ This experiment aims to classify AI-generated versus human-written texts using L
 ---
 
 ## Results
+- **Table 1:** Test Accuracy for Different Tokenizer and Word Embedding Combinations. 
 ![Test Accuracy Table](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Table1.png)
 
 - **Figure 1:** Training and testing loss (left), test accuracy (right) for Basic embedding with LSTM.  
