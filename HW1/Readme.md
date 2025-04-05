@@ -1,6 +1,6 @@
 # HW1 Experiment Report
 
-## 📌 Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
 - [Method](#method)
   - [Word Embedding Techniques](#word-embedding-techniques)
@@ -31,22 +31,17 @@ This experiment aims to classify AI-generated versus human-written texts using L
 ---
 
 ## Results
-| Model      | BERT | AutoTokenizer + AutoEmbedding | **Basic** | Word2Vec | FastText |
-|------------|------|-------------------------------|-----------|----------|----------|
-| **LSTM**   | 99.82% | 98.48%                        | **99.96%** | 99.78%   | 99.74%   |
-| **CNN-LSTM** | 99.73% | 98.58%                        | **99.93%** | 99.35%   | 99.82%   |
-| **BiLSTM** | 99.81% | 98.68%                        | **99.95%** | 99.85%   | 99.59%   |
+![image](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Table1.png)
 
-*Note: All models trained for 20 epochs, using Adam optimizer (lr = 1e-4). Bold values indicate highest accuracy per model.*
-
----
-
-## Figures
-(以下圖片將以picture形式呈現)
-
-- **Figure 1:** Training and testing loss (left), test accuracy (right) for Basic embedding with LSTM.
-- **Figure 2:** Training and testing loss (left), test accuracy (right) for Basic embedding with CNN-LSTM.
-- **Figure 3:** Training and testing loss (left), test accuracy (right) for Basic embedding with BiLSTM.
+- **Figure 1:**
+-![image](https://github.2com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Figure1.png)
+- Training and testing loss (left), test accuracy (right) for Basic embedding with LSTM.
+- **Figure 2:**
+-![image](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Figure2.png)
+- Training and testing loss (left), test accuracy (right) for Basic embedding with CNN-LSTM.
+- **Figure 3:**
+-![image](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Figure3.png)
+- Training and testing loss (left), test accuracy (right) for Basic embedding with BiLSTM.
 
 ---
 
