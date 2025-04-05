@@ -14,7 +14,15 @@ This experiment aims to classify AI-generated versus human-written texts using L
 ## Method
 ### Word Embedding Techniques
 - **BERT (cased):** Transformer-based contextual embeddings (768-dimensions).
+
+  ```bash
+  from transformers import BertTokenizer, BertModel
+  ```
 - **AutoTokenizer & AutoEmbedding (BERT uncased):** Automatic tokenizer and embedding selection; converts all text to lowercase.
+
+  ```bash
+  from transformers import AutoTokenizer, AutoModel
+  ```
 - **Basic Custom Embedding:** Vocabulary built manually; embeddings initialized randomly and learned during training (512 tokens max).
 - **Word2Vec:** Captures local context (300-dimensions).
 
