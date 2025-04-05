@@ -34,13 +34,13 @@ This experiment aims to classify AI-generated versus human-written texts using L
 ![image](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Table1.png)
 
 - **Figure 1:**
--![image](https://github.2com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Figure1.png)
+![image](https://github.2com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Figure1.png)
 - Training and testing loss (left), test accuracy (right) for Basic embedding with LSTM.
 - **Figure 2:**
--![image](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Figure2.png)
+![image](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Figure2.png)
 - Training and testing loss (left), test accuracy (right) for Basic embedding with CNN-LSTM.
 - **Figure 3:**
--![image](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Figure3.png)
+![image](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Figure3.png)
 - Training and testing loss (left), test accuracy (right) for Basic embedding with BiLSTM.
 
 ---
