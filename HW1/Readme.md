@@ -19,9 +19,9 @@ This experiment aims to classify AI-generated versus human-written texts using L
 - **AutoTokenizer & AutoEmbedding (BERT uncased):** Automatic tokenizer and embedding selection; converts all text to lowercase.
 - **Basic Custom Embedding:** Vocabulary built manually; embeddings initialized randomly and learned during training (512 tokens max).
 - **Word2Vec:** Captures local context (300-dimensions).
-![Download pre-train model address](https://huggingface.co/fse/word2vec-google-news-300)
+  [Download pre-trained model here](https://huggingface.co/fse/word2vec-google-news-300)
 - **FastText:** Extends Word2Vec by character n-grams (300-dimensions).
-![Download pre-train model address](https://fasttext.cc/docs/en/english-vectors.html)
+  [Download pre-trained model here](https://fasttext.cc/docs/en/english-vectors.html)
 
 ### Model Architectures
 - **LSTM:** Captures sequential dependencies.
