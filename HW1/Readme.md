@@ -6,12 +6,10 @@
 - [Results](#results)
 - [Conclusion](#conclusion)
 
----
 
 ## Introduction
 This experiment aims to classify AI-generated versus human-written texts using LSTM-based models. The task includes data preprocessing, embedding techniques exploration, model training, and evaluation.
 
----
 
 ## Method
 ### Word Embedding Techniques
@@ -28,7 +26,7 @@ This experiment aims to classify AI-generated versus human-written texts using L
 - **CNN-LSTM:** Combines CNN local feature extraction with LSTM sequential modeling.
 - **Bidirectional LSTM (BiLSTM):** Processes text in both forward and backward directions.
 
----
+
 
 ## Results
 
@@ -48,7 +46,7 @@ This experiment aims to classify AI-generated versus human-written texts using L
 <br><br> 
 ![Figure 3](https://github.com/kailee0422/RNN-Transformer/blob/main/HW1/picture/Figure3.png)
 
----
+
 
 ## Conclusion
 The experiment revealed that all embedding techniques achieved over 98% accuracy, with Basic embedding unexpectedly outperforming advanced pre-trained methods, indicating simpler embeddings may sometimes better align with specific datasets or model structures. Further exploration through cross-validation and additional datasets is suggested.
