@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 You can choose to run this program **locally in VS Code** or **directly on Google Colab**.
 
----
+
 
 ## 🖥️ Option 1: Run in VS Code (Locally)
 
