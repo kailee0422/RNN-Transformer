@@ -26,5 +26,8 @@ jupyter notebook
 
 5. **Results**: The model classifies texts as AI-generated or human-written and outputs corresponding accuracy metrics and visualizations.
 
+<a target="_blank" href="https://colab.research.google.com/github/kailee0422/RNN-Transformer/blob/main/HW1/Code/HW1.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 If you encounter any issues, please contact [me](mailto:aa34239387@gmail.com) for assistance.
