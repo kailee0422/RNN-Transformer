@@ -58,13 +58,13 @@ If you want to make predictions using a trained model, you can use the `inferenc
 ###  Purpose
 This script loads a saved model and runs inference on a test dataset. Optionally, it can also evaluate results against ground-truth labels.
 
-### ✅ Example Usage
+###  Example Usage
 
 ```bash
 python inference.py --model ./model --test "./Test data/test.csv" --model_type lstm --eval "./Test data/test_ans.csv"
 ```
 
-### 🔧 Arguments Explained
+###  Arguments Explained
 
 | Argument     | Description                                                                 |
 |--------------|-----------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ python inference.py --model ./model --test "./Test data/test.csv" --model_type l
 | `--eval`     | *(Optional)* Path to evaluation CSV (with ground-truth labels) for metrics. |
 
 
-### 📄 Output Format
+###  Output Format
 
 - The output CSV will contain two columns:
   - `id`: The unique identifier of the input sample.
@@ -87,13 +87,13 @@ python inference.py --model ./model --test "./Test data/test.csv" --model_type l
 ###  Purpose
 This script loads a saved model and runs inference on a test dataset.
 
-### ✅ Example Usage
+###  Example Usage
 
 ```bash
 python inference_assignment.py --model ./model --test "./Test data/test.csv" "
 ```
 
-### 🔧 Arguments Explained
+###  Arguments Explained
 
 | Argument       | Description                                                                 |
 |----------------|-----------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ python inference_assignment.py --model ./model --test "./Test data/test.csv" "
 
 
 
-### 📄 Output Format
+###  Output Format
 
 - The output CSV will contain two columns:
   - `id`: The unique identifier of the input sample.
