@@ -10,7 +10,6 @@ pip install -r requirements.txt
 
 You can choose to run this program **locally in VS Code** or **directly on Google Colab**.
 
----
 
 ## 🖥️ Option 1: Run in VS Code (Locally)
 
@@ -52,7 +51,7 @@ Click the badge below to open and run the notebook on Colab (no local setup requ
 
 # How to Run Inference
 
-If you want to make predictions using a trained model, you can use the `inference.py` or `inference_assignment.py` script.The main difference between these two files is the output format. Check below for more details.
+If you want to make predictions using a trained model, you can use the `inference.py` or `inference_assignment.py` script running in cmd or VS Code.The main difference between these two files is the output format. Check below for more details.
 
 ##  inference.py
 
