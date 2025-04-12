@@ -1,0 +1,11 @@
+Model: GRU
+Evaluation Dataset: ./Test data/test_ans.csv
+Accuracy: 0.6393
+Precision: 0.0000
+Recall: 0.0000
+F1 Score: 0.0000
+
+Confusion Matrix:
+              | Predicted Neg | Predicted Pos |
+Actual Neg |          2086 |          1177 |
+Actual Pos |             0 |             0 |
