@@ -1,0 +1,6 @@
+pandas==2.2.3
+torch==2.6.0+cu124
+transformers==4.47.1
+tqdm==4.66.5
+matplotlib==3.9.2
+seaborn==0.13.2
