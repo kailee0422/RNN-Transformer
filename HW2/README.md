@@ -40,7 +40,8 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 ## Results
 
 ### Loss and Accuracy Plots
-![Training loss](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure1.png)
+<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure1.png" width="60%"/>
+
 ![Val loss](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure2.png)
 
 ###  Validation Set
