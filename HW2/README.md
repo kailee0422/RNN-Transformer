@@ -87,9 +87,9 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 | GRU   | 26.12s        | 1445.26         | 110.3M     |
 
 
-## Inference Kaggle dataset
+### Inferencing Kaggle dataset
 <div align="left">
-  <img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Kaggle.png" width="60%"/>
+  <img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Kaggle.png" width="80%"/>
 </div>
   <p></p>
 
