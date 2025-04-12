@@ -1,4 +1,4 @@
-## 🔍 Overview
+##  Introduction
 
 This project explores the use of **Compared with LSTM and GRU** for classifying whether a tweet is about a real disaster or not. It is based on the [Kaggle NLP Disaster Tweets dataset](https://www.kaggle.com/competitions/nlp-getting-started/overview). The goal is to compare the performance of LSTM and GRU models in terms of classification accuracy, training speed, and resource usage.
 
@@ -57,7 +57,7 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 
 ###  Resource Usage
 
-<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table3.png" width="60%"/>
+<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table3.png" width="80%"/>
 
 
 ## Conclusion
