@@ -95,11 +95,12 @@ python inference_assignment.py --model ./model --test "./Test data/test.csv" "
 
 ### 🔧 Arguments Explained
 
-| Argument | Description |
-|:----------:|-------------|
-| `--model` | **(Required)** Path to the directory containing the saved model. |
-| `--test` | **(Required)** Path to the test dataset CSV file. |
-| `--batch_size` | *(Optional)* Number of samples processed per batch during inference. Default is `32`. |
+| Argument       | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| `--model`      | **(Required)** Path to the directory containing the saved model.            |
+| `--test`       | **(Required)** Path to the test dataset CSV file.                           |
+| `--batch_size` | *(Optional)* Batch size to use during inference. Default value is `32`.     |
+
 
 
 ### 📄 Output Format
