@@ -49,7 +49,7 @@ Click the badge below to open and run the notebook on Colab (no local setup requ
 
 
 
-# How to Run Inference
+# How to Run Inference 
 
 If you want to make predictions using a trained model, you can use the `inference.py` or `inference_assignment.py` script running in cmd or VS Code.The main difference between these two files is the output format. Check below for more details.
 
