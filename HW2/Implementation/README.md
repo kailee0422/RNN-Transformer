@@ -38,7 +38,7 @@ You can choose to run this program **locally in VS Code** or **directly on Googl
 5. **View Results**  
    The notebook will classify texts as either AI-generated or human-written, and display accuracy metrics along with visualizations.
 
----
+
 
 ## ☁️ Option 2: Run on Google Colab
 
@@ -48,7 +48,7 @@ Click the badge below to open and run the notebook on Colab (no local setup requ
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
----
+
 
 # How to Run Inference
 
