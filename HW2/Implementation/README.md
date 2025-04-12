@@ -67,7 +67,7 @@ python inference.py --model ./model --test "./Test data/test.csv" --model_type l
 ### 🔧 Arguments Explained
 
 | Argument | Description |
-|--------------|-------------|
+|------------------|-------------|
 | `--model` | **(Required)** Path to the directory containing the saved model. |
 | `--test` | **(Required)** Path to the test dataset CSV file. |
 | `--model_type` | *(Optional)* Choose the model architecture to use: `'lstm'` or `'gru'`. Default is `'lstm'`. |
