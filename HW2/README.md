@@ -87,6 +87,12 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 | GRU   | 26.12s        | 1445.26         | 110.3M     |
 
 
+## Inference Kaggle dataset
+<div align="left">
+  <img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Kaggle.png" width="60%"/>
+</div>
+  <p></p>
+
 ## Conclusion
 
 GRU achieved higher accuracy and precision compared to LSTM, while also training slightly faster with fewer parameters. Although both models failed to identify positive samples in the test set, GRU showed better performance and efficiency overall, making it more suitable for this binary classification task. More detail you can see my [document](https://github.com/kailee0422/RNN-Transformer/blob/main/HW2/Document/HW2.pdf)
