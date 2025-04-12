@@ -28,7 +28,6 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 - Epochs: 30, Batch size: 32
 - Validation split: 20%
 
----
 
 ## Evaluation Metrics
 - **Accuracy**, **Precision**, **Recall**, **F1 Score**
@@ -42,23 +41,23 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 ### Loss and Accuracy Plots
 <img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure1.png" width="60%"/>
 
-![Val loss](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure2.png)
+<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure2.png" width="60%"/>
 
 ###  Validation Set
 
-![Val Metrics](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table1.png)
+<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table1.png" width="60%"/>
 
 
 ###  Test Set
 
-![Test Metrics](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table2.png)
-![Confusion Matrix](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure3.png)
+<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table2.png" width="60%"/>
+<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure3.png" width="60%"/>
 
-> ⚠️ *Due to the test set containing no positive samples, both models failed to predict any positive cases, leading to precision/recall = 0.*
+⚠️ *Due to the test set containing no positive samples, both models failed to predict any positive cases, leading to precision/recall = 0.*
 
 ###  Resource Usage
 
-![Resource Usage](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table3.png)
+<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table3.png" width="60%"/>
 
 
 ## Conclusion
