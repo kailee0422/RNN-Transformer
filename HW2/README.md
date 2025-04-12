@@ -3,10 +3,10 @@
 This project explores the use of **Compared with LSTM and GRU** for classifying whether a tweet is about a real disaster or not. It is based on the [Kaggle NLP Disaster Tweets dataset](https://www.kaggle.com/competitions/nlp-getting-started/overview). The goal is to compare the performance of LSTM and GRU models in terms of classification accuracy, training speed, and resource usage.
 
 ## Table of Contents
-- [Model Pipeline](## 🧠 Model Pipeline)
-- [Evaluation Metrics](## 📊 Evaluation Metrics)
-- [Results](## 📈 Results)
-- [Conclusion](## 🧾 Conclusion)
+- [Model Pipeline](#model-pipeline)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Results](#results)
+- [Conclusion](#conclusion)
 
 ## 🧠 Model Pipeline
 
@@ -40,24 +40,24 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 ## 📈 Results
 
 ### Loss and Accuracy Plots
-![Training loss](https://github.com/kailee0422/RNN-Transformer/HW2/Picture/Figure1.png)
-![Val loss](https://github.com/kailee0422/RNN-Transformer/HW2/Picture/Figure2.png)
+![Training loss](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure1.png)
+![Val loss](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure2.png)
 
 ###  Validation Set
 
-![Val Metrics](https://github.com/kailee0422/RNN-Transformer/HW2/Picture/Table1.png)
+![Val Metrics](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table1.png)
 
 
 ###  Test Set
 
-![Test Metrics](https://github.com/kailee0422/RNN-Transformer/HW2/Picture/Table2.png)
-![Confusion Matrix](https://github.com/kailee0422/RNN-Transformer/HW2/Picture/Figure3.png)
+![Test Metrics](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table2.png)
+![Confusion Matrix](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure3.png)
 
 > ⚠️ *Due to the test set containing no positive samples, both models failed to predict any positive cases, leading to precision/recall = 0.*
 
 ###  Resource Usage
 
-![Resource Usage](https://github.com/kailee0422/RNN-Transformer/HW2/Picture/Table3.png)
+![Resource Usage](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table3.png)
 
 
 ## 🧾 Conclusion
