@@ -66,13 +66,14 @@ python inference.py --model ./model --test "./Test data/test.csv" --model_type l
 
 ### 🔧 Arguments Explained
 
-| Argument | Description |
-|-----------------------|-------------|
-| `--model` | **(Required)** Path to the directory containing the saved model. |
-| `--test` | **(Required)** Path to the test dataset CSV file. |
-| `--model_type` | *(Optional)* Choose the model architecture to use: `'lstm'` or `'gru'`. Default is `'lstm'`. |
-| `--batch_size` | *(Optional)* Number of samples processed per batch during inference. Default is `32`. |
-| `--eval` | *(Optional)* Path to evaluation CSV file (with ground-truth labels). If provided, the script will compute evaluation metrics (e.g., accuracy). |
+| Argument     | Description                                                                 |
+|--------------|-----------------------------------------------------------------------------|
+| `--model`    | **(Required)** Path to the directory containing the saved model.            |
+| `--test`     | **(Required)** Path to the test dataset CSV file.                           |
+| `--model_type` | *(Optional)* Model architecture: `'lstm'` or `'gru'`. Default is `'lstm'`. |
+| `--batch_size` | *(Optional)* Batch size for inference. Default: `32`.                     |
+| `--eval`     | *(Optional)* Path to evaluation CSV (with ground-truth labels) for metrics. |
+
 
 ### 📄 Output Format
 
