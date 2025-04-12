@@ -8,7 +8,7 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 - [Results](#results)
 - [Conclusion](#conclusion)
 
-## 🧠 Model Pipeline
+## Model Pipeline
 
 ### 1. **Data Preprocessing**
 - Remove punctuation, HTML, and non-ASCII characters
@@ -30,14 +30,14 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 - **Accuracy**, **Precision**, **Recall**, **F1 Score**
 - Training time and GPU memory usage also recorded
 - Confusion matrices and training/validation curves provided for analysis
 
 
 
-## 📈 Results
+## Results
 
 ### Loss and Accuracy Plots
 ![Training loss](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure1.png)
@@ -60,7 +60,7 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 ![Resource Usage](https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table3.png)
 
 
-## 🧾 Conclusion
+## Conclusion
 
 GRU achieved higher accuracy and precision compared to LSTM, while also training slightly faster with fewer parameters. Although both models failed to identify positive samples in the test set, GRU showed better performance and efficiency overall, making it more suitable for this binary classification task.
 
