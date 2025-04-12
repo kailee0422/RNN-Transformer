@@ -39,25 +39,45 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 ## Results
 
 ### Loss and Accuracy Plots
-<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure1.png" width="40%"/>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure1.png" width="60%"/>
+  <p><em>Figure 1: Training Loss Over Epochs</em></p>
+</div>
 
-<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure2.png" width="60%"/>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure1.png" width="60%"/>
+  <p><em>Figure 2: Training Accuracy(left) and Validation Accuracy Compared With Train Accuracy(right) Over Epochs.</em></p>
+</div>
+
 
 ###  Validation Set
 
-<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table1.png" width="40%"/>
+| Model | Accuracy | Precision | Recall |
+|-------|----------|-----------|--------|
+| LSTM  | 81.68%   | 80.53%    | 75.19% |
+| GRU   | 83.45%   | 85.01%    | 74.27% |
 
 
 ###  Test Set
 
-<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table2.png" width="40%"/>
-<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure3.png" width="60%"/>
+| Model | Accuracy | Precision | Recall | F1 Score |
+|-------|----------|-----------|--------|----------|
+| LSTM  | 50.75%   | 0         | 0      | 0        |
+| GRU   | 63.93%   | 0         | 0      | 0        |
+<div align="center">
+  <img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure3.png" width="60%"/>
+  <p><em>Figure 3: Confusion Matrixes with different Model.</em></p>
+</div>
+
 
 ⚠️ *Due to the test set containing no positive samples, both models failed to predict any positive cases, leading to precision/recall = 0.*
 
 ###  Resource Usage
 
-<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table3.png" width="40%"/>
+| Model | Training Time | GPU Memory (MB) | Parameters |
+|-------|---------------|-----------------|------------|
+| LSTM  | 26.29s        | 1435.24         | 110.5M     |
+| GRU   | 26.12s        | 1445.26         | 110.3M     |
 
 
 ## Conclusion
