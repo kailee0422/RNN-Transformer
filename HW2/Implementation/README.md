@@ -67,7 +67,7 @@ python inference.py --model ./model --test "./Test data/test.csv" --model_type l
 ### 🔧 Arguments Explained
 
 | Argument | Description |
-|----------|-------------|
+|:----------:|-------------|
 | `--model` | **(Required)** Path to the directory containing the saved model. |
 | `--test` | **(Required)** Path to the test dataset CSV file. |
 | `--model_type` | *(Optional)* Choose the model architecture to use: `'lstm'` or `'gru'`. Default is `'lstm'`. |
@@ -95,7 +95,7 @@ python inference_assignment.py --model ./model --test "./Test data/test.csv" "
 ### 🔧 Arguments Explained
 
 | Argument | Description |
-|----------|-------------|
+|:----------:|-------------|
 | `--model` | **(Required)** Path to the directory containing the saved model. |
 | `--test` | **(Required)** Path to the test dataset CSV file. |
 | `--batch_size` | *(Optional)* Number of samples processed per batch during inference. Default is `32`. |
@@ -113,6 +113,3 @@ python inference_assignment.py --model ./model --test "./Test data/test.csv" "
 
 If you encounter any issues, feel free to contact [me](mailto:aa34239387@gmail.com) for assistance.
 
----
-
-需要我幫你也整理一下 `inference_assignment.py` 的用法嗎？或者你有其他的程式要一起寫進說明文件裡？
