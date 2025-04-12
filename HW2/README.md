@@ -51,13 +51,13 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 ###  Test Set
 
 <img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table2.png" width="40%"/>
-<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure3.png" width="40%"/>
+<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure3.png" width="60%"/>
 
 ⚠️ *Due to the test set containing no positive samples, both models failed to predict any positive cases, leading to precision/recall = 0.*
 
 ###  Resource Usage
 
-<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table3.png" width="80%"/>
+<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Table3.png" width="40%"/>
 
 
 ## Conclusion
