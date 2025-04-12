@@ -39,7 +39,7 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 ## Results
 
 ### Loss and Accuracy Plots
-<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure1.png" width="60%"/>
+<img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure1.png" width="40%"/>
 
 <img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure2.png" width="60%"/>
 
