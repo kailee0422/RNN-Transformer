@@ -40,24 +40,24 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 ## 📈 Results
 
 ### Loss and Accuracy Plots
-![Training loss](https://github.com/kailee0422/RNN-Transformer/edit/main/HW2/Picture/Figure1.png)
-![Val loss](https://github.com/kailee0422/RNN-Transformer/edit/main/HW2/Picture/Figure2.png)
+![Training loss](https://github.com/kailee0422/RNN-Transformer/HW2/Picture/Figure1.png)
+![Val loss](https://github.com/kailee0422/RNN-Transformer/HW2/Picture/Figure2.png)
 
 ###  Validation Set
 
-![Val Metrics](https://github.com/kailee0422/RNN-Transformer/edit/main/HW2/Picture/Table1.png)
+![Val Metrics](https://github.com/kailee0422/RNN-Transformer/HW2/Picture/Table1.png)
 
 
 ###  Test Set
 
-![Test Metrics](https://github.com/kailee0422/RNN-Transformer/edit/main/HW2/Picture/Table2.png)
-![Confusion Matrix](https://github.com/kailee0422/RNN-Transformer/edit/main/HW2/Picture/Figure3.png)
+![Test Metrics](https://github.com/kailee0422/RNN-Transformer/HW2/Picture/Table2.png)
+![Confusion Matrix](https://github.com/kailee0422/RNN-Transformer/HW2/Picture/Figure3.png)
 
 > ⚠️ *Due to the test set containing no positive samples, both models failed to predict any positive cases, leading to precision/recall = 0.*
 
 ###  Resource Usage
 
-![Resource Usage](https://github.com/kailee0422/RNN-Transformer/edit/main/HW2/Picture/Table3.png)
+![Resource Usage](https://github.com/kailee0422/RNN-Transformer/HW2/Picture/Table3.png)
 
 
 ## 🧾 Conclusion
