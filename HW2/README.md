@@ -39,12 +39,12 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 ## Results
 
 ### Loss and Accuracy Plots
-<div align="center">
+<div align="left">
   <img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure1.png" width="60%"/>
   <p><em>Figure 1: Training Loss Over Epochs</em></p>
 </div>
 
-<div align="center">
+<div align="left">
   <img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure1.png" width="60%"/>
   <p><em>Figure 2: Training Accuracy(left) and Validation Accuracy Compared With Train Accuracy(right) Over Epochs.</em></p>
 </div>
@@ -64,7 +64,7 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 |:-------:|:----------:|:-----------:|:--------:|:----------:|
 | LSTM  | 50.75%   | 0         | 0      | 0        |
 | GRU   | 63.93%   | 0         | 0      | 0        |
-<div align="center">
+<div align="left">
   <img src="https://raw.githubusercontent.com/kailee0422/RNN-Transformer/main/HW2/Picture/Figure3.png" width="60%"/>
   <p><em>Figure 3: Confusion Matrixes with different Model.</em></p>
 </div>
