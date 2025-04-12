@@ -53,7 +53,7 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 ###  Validation Set
 
 | Model | Accuracy | Precision | Recall |
-|-------|----------|-----------|--------|
+|:-------:|:----------:|:-----------:|:--------:|
 | LSTM  | 81.68%   | 80.53%    | 75.19% |
 | GRU   | 83.45%   | 85.01%    | 74.27% |
 
@@ -61,7 +61,7 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 ###  Test Set
 
 | Model | Accuracy | Precision | Recall | F1 Score |
-|-------|----------|-----------|--------|----------|
+|:-------:|:----------:|:-----------:|:--------:|:----------:|
 | LSTM  | 50.75%   | 0         | 0      | 0        |
 | GRU   | 63.93%   | 0         | 0      | 0        |
 <div align="center">
@@ -75,7 +75,7 @@ This project explores the use of **Compared with LSTM and GRU** for classifying 
 ###  Resource Usage
 
 | Model | Training Time | GPU Memory (MB) | Parameters |
-|-------|---------------|-----------------|------------|
+|:-------:|:---------------:|:-----------------:|:------------:|
 | LSTM  | 26.29s        | 1435.24         | 110.5M     |
 | GRU   | 26.12s        | 1445.26         | 110.3M     |
 
