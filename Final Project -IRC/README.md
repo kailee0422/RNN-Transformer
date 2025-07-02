@@ -6,7 +6,6 @@ This guide will help you:
 2. Run your app locally
 3. Export and share the Docker image with others
 
----
 
 ## Project Structure
 
@@ -19,8 +18,6 @@ project-folder/
 └── Dockerfile           # Docker build instructions
 ```
 
----
-
 ## Generate `requirements.txt`
 
 After installing the necessary packages in your Python environment, run:
@@ -31,7 +28,7 @@ pip freeze > requirements.txt
 
 > Tip: Clean the list to include only essential packages.
 
----
+
 
 ## Build the Docker Image
 
@@ -52,7 +49,7 @@ docker build -t your_image_name .
 docker build -t my-streamlit-app .
 ```
 
----
+
 
 ## Run the Docker Container
 
@@ -82,7 +79,7 @@ http://localhost:8888
 > - `-p external:internal` maps host port to container port.
 > - Streamlit defaults to port `8501` inside the container.
 
----
+
 
 ## 📤 Export the Docker Image (Share with Others)
 
@@ -94,7 +91,7 @@ docker save -o my-streamlit-app.tar my-streamlit-app
 
 Share it via Google Drive, USB, SCP, etc.
 
----
+
 
 ## Load the Docker Image (For Recipients)
 
@@ -110,7 +107,7 @@ docker load -i my-streamlit-app.tar
 docker run -p 8501:8501 my-streamlit-app
 ```
 
----
+
 
 ## Dockerfile Example
 
@@ -126,7 +123,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 CMD ["streamlit", "run", "main.py", "--server.port=8501", "--server.enableCORS=false"]
 ```
 
----
+
 
 ## Summary Workflow
 
