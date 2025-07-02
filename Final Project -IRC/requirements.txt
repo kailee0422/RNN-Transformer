@@ -1,0 +1,16 @@
+streamlit==1.45.1
+PyMuPDF==1.26.0
+pillow==11.2.1
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-core==0.3.61
+langchain-ollama==0.3.3
+langchain-text-splitters==0.3.8
+ollama==0.4.8
+mistralai==1.7.1
+beautifulsoup4==4.12.3
+requests==2.32.3
+Markdown==3.7
+arxiv==2.1.3
+pandas==2.2.3
+streamlit-pdf-viewer==0.0.23
