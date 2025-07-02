@@ -1,4 +1,4 @@
-#  Guide: Build & Share IRC
+#  Guide: Build & Share IRC by docker 🐳
 
 This guide will help you:
 
@@ -135,6 +135,4 @@ CMD ["streamlit", "run", "main.py", "--server.port=8501", "--server.enableCORS=f
 | Import image (others)   | `docker load -i my-streamlit-app.tar` |
 | Run container (others)  | `docker run -p 8501:8501 my-streamlit-app` |
 
-
-Happy Dockering! 🐳
 
