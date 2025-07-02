@@ -1,4 +1,4 @@
-#  Guide: Build & Share IRC by docker 🐳
+#  Guide: Build & Share IRC by Docker 🐳
 
 This guide will help you:
 
