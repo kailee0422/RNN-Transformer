@@ -1,9 +1,9 @@
-#  Docker Guide: Build & Share Your Streamlit App
+#  Guide: Build & Share IRC
 
 This guide will help you:
 
-1. Build your own Docker environment for a Streamlit app
-2. Run your app locally
+1. Build your own Docker environment for an IRC
+2. Run your IRC locally
 3. Export and share the Docker image with others
 
 
@@ -81,7 +81,7 @@ http://localhost:8888
 
 
 
-## 📤 Export the Docker Image (Share with Others)
+## Export the Docker Image (Share with Others)
 
 To export the image as a `.tar` file:
 
@@ -108,11 +108,10 @@ docker run -p 8501:8501 my-streamlit-app
 ```
 
 
-
 ## Dockerfile Example
 
 ```Dockerfile
-FROM python:3.10-slim
+FROM python:3.12
 
 WORKDIR /app
 
@@ -136,7 +135,6 @@ CMD ["streamlit", "run", "main.py", "--server.port=8501", "--server.enableCORS=f
 | Import image (others)   | `docker load -i my-streamlit-app.tar` |
 | Run container (others)  | `docker run -p 8501:8501 my-streamlit-app` |
 
----
 
 Happy Dockering! 🐳
 
